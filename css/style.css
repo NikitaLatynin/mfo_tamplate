@@ -1,0 +1,269 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+section {
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+
+.container {
+    padding: 15px;
+}
+
+/*--------------------------
+  HEADING SECTION
+----------------------*/
+
+.banner {
+    background: url("../img/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.banner-area .content-padding {
+    padding: 250px 0px 180px;
+}
+  
+.content-padding {
+    padding: 180px 0px 80px;
+}
+  
+.banner-content {
+    padding-right: 30px;
+}
+  
+  
+.banner-content .banner-title {
+    color: rgb(145, 144, 144);
+    font-weight: 700;
+    line-height: 50px;
+}
+  
+.banner-content .subtitle {
+    color: #fff;
+    background: #635CDB;
+    display: inline-block;
+    padding: 3px 8px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+  
+.subtitle {
+    color: #635CDB;
+}
+  
+.banner-content p {
+    margin: 20px 0px;
+    color: rgb(168, 163, 163);
+    font-size: 18px;
+    line-height: 30px;
+}
+
+/*--------------------------
+  CALCULATOR SECTION
+----------------------*/
+  
+.range-value {
+    width:auto;
+}
+
+.form-label {
+    margin-bottom: 10px;
+}
+
+.range-values {
+    margin-bottom: 10px;
+}
+
+.form-summ {
+    padding: 10px;
+}
+
+/*--------------------------
+  INTRO SECTION
+----------------------*/
+
+#intro {
+    padding-bottom: 0px;
+}
+  
+.intro-img {
+    margin-top: 45px;
+}
+  
+#intro .section-heading p {
+    color: #000;
+    font-size: 30px;
+    line-height: 40px;
+}
+  
+.intro-box {
+    margin-top: 30px;
+    position: relative;
+    margin-bottom: 20px;
+}
+  
+.intro-box h4:before {
+    position: absolute;
+    left: 0px;
+    top: 17px;
+    content: "";
+    bottom: 0px;
+    background: #000;
+    width: 50px;
+    height: 2px;
+}
+  
+.intro-box h4 {
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    position: relative;
+    padding-left: 60px;
+}
+  
+.intro-box span {
+    font-size: 28px;
+    color: #635CDB;
+}
+  
+.intro-cta {
+    margin-top: 40px;
+}
+
+  /*--------------------------
+  ABOUT SECTION
+----------------------*/
+.section-pt {
+    padding-top: 90px;
+}
+  
+.section-pb {
+    padding-bottom: 90px;
+}
+  
+#about {
+    position: relative;
+    padding-bottom: 85px;
+}
+  
+.about-bg-img {
+    position: absolute;
+    right: 0px;
+    content: "";
+    background: url("../img/1.jpg") 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40%;
+    height: 100%;
+    top: 0px;
+    -webkit-box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.06);
+    box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.06);
+}
+  
+.about-content {
+    margin-top: 20px;
+}
+
+.about-sec {
+    border-radius: 15px;
+}
+  
+.about-content .subtitle {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+  
+.about-content h3 {
+    margin-bottom: 25px;
+}
+  
+.about-list {
+    margin-top: 30px;
+}
+  
+.about-list li {
+    width: 45%;
+    float: left;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    color: #888;
+}
+
+/*--------------------------
+  DEVICES SECTION
+----------------------*/
+
+.devices .container {
+    padding: 25px;
+    text-align: center;
+}
+
+.card {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 150px;
+}
+
+.devices button {
+    margin-top: 10px;
+    height: 50px;
+    max-width: fit-content;
+}
+
+/*--------------------------
+  FOOTER SECTION
+----------------------*/
+
+#footer {
+    padding-bottom: 20px;
+    position: relative;
+    border-top: 1px solid #eee;
+    color:#fff;
+}
+  
+.footer-widget ul li {
+    padding: 5px 0px;
+}
+  
+.footer-widget p {
+    margin-bottom: 5px;
+}
+  
+.footer-widget h4 {
+    margin-bottom: 20px;
+}
+  
+.footer-blog li h5 {
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: capitalize;
+}
+  
+.footer-blog li a.read-more {
+    font-size: 13px;
+}
+  
+.footer-blog li {
+    margin-bottom: 15px;
+}
+  
+.footer-copy {
+    letter-spacing: 1px;
+    padding-top: 30px;
+    margin-top: 30px;
+    border-top: 1px solid #eee;
+}
+  
+.footer-text h6 {
+    margin-bottom: 10px;
+}
+  
+#footer a {
+    text-transform: none;
+    color: #fff;
+}
