@@ -35,7 +35,7 @@ section {
   
   
 .banner-content .banner-title {
-    color: rgb(145, 144, 144);
+    color: rgb(0, 0, 0);
     font-weight: 700;
     line-height: 50px;
 }
@@ -55,7 +55,7 @@ section {
   
 .banner-content p {
     margin: 20px 0px;
-    color: rgb(168, 163, 163);
+    color: rgb(0, 0, 0);
     font-size: 18px;
     line-height: 30px;
 }
